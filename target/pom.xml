@@ -7,7 +7,7 @@
 	<parent>
 		<groupId>ru.capralow.dt.framework.va</groupId>
 		<artifactId>build</artifactId>
-		<version>1.2.028-SNAPSHOT</version>
+		<version>1.2.28-SNAPSHOT</version>
 		<relativePath>../build/pom.xml</relativePath>
 	</parent>
 

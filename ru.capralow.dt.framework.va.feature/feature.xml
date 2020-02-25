@@ -50,7 +50,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
    </requires>
 
    <plugin
-         id="ru.capralow.dt.framework.va"
+         id="ru.capralow.dt.framework.va.exec"
          download-size="0"
          install-size="0"
          version="0.0.0"

@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: %pluginName
-Bundle-SymbolicName: ru.capralow.dt.framework.va;singleton:=true
+Bundle-SymbolicName: ru.capralow.dt.framework.va.exec;singleton:=true
 Bundle-Version: 1.2.28.qualifier
 Bundle-Activator: ru.capralow.dt.framework.va.exec.FrameworkPlugin
 Require-Bundle: org.eclipse.core.runtime

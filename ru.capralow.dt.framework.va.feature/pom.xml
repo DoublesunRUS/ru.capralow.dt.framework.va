@@ -10,7 +10,7 @@
 		<version>1.2.28-SNAPSHOT</version>
 		<relativePath>../build/pom.xml</relativePath>
 	</parent>
-	<artifactId>ru.capralow.dt.framework.va.feature</artifactId>
+	<artifactId>ru.capralow.dt.framework.va</artifactId>
 	<packaging>eclipse-feature</packaging>
 	<build>
 		<plugins>
@@ -41,5 +41,5 @@
 			</plugin>
 		</plugins>
 	</build>
-	<groupId>ru.capralow.dt.framework.va.plugin.feature</groupId>
+	<groupId>ru.capralow.dt.framework.va.feature</groupId>
 </project>

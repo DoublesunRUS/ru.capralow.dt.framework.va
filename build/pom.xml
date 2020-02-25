@@ -33,7 +33,7 @@
 	<modules>
 		<module>../target</module>
 		
-		<module>../ru.capralow.dt.framework.va</module>
+		<module>../ru.capralow.dt.framework.va.exec</module>
 
 		<module>../ru.capralow.dt.framework.va.feature</module>
 		

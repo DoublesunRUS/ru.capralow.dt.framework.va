@@ -1,4 +1,4 @@
-package ru.capralow.dt.framework.va;
+package ru.capralow.dt.framework.va.exec;
 
 import org.eclipse.core.runtime.IStatus;
 import org.eclipse.core.runtime.Plugin;

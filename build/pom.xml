@@ -170,7 +170,7 @@
 					<artifactId>tycho-p2-repository-plugin</artifactId>
 					<version>${tycho.version}</version>
 					<configuration>
-						<repositoryName>${name} ${qualifier}</repositoryName>
+						<repositoryName>${name}</repositoryName>
 					</configuration>
 				</plugin>
 				

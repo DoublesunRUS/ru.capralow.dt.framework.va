@@ -11,5 +11,5 @@
 		<relativePath>../build/pom.xml</relativePath>
 	</parent>
 	<packaging>eclipse-plugin</packaging>
-	<artifactId>ru.capralow.dt.framework.va</artifactId>
+	<artifactId>ru.capralow.dt.framework.va.exec</artifactId>
 </project>

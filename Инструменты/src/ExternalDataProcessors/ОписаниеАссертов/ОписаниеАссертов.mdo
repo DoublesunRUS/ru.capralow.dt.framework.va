@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c347247a-b3d1-4990-8d67-cace520b5c2e">
+  <producedTypes>
+    <objectType typeId="cefa95a2-098e-4e9e-9d91-0778615cce61" valueTypeId="5cc0e7fa-d6d8-4d71-8029-1451b59a1f69"/>
+  </producedTypes>
+  <name>ОписаниеАссертов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Описание ассертов</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="df52a1f3-6175-4dea-8bce-445fa129ec11"/>
+  <defaultForm>ExternalDataProcessor.ОписаниеАссертов.Form.Форма</defaultForm>
+  <attributes uuid="b8ac7746-42ff-4c1c-9d27-28d2db33399b">
+    <name>ТекстМодуля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст модуля</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+  </attributes>
+  <attributes uuid="6146e661-1fb3-4e45-a6aa-ef6aa9c44141">
+    <name>ОбластьАссертов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Область ассертов</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="e04ff1cc-0459-4685-a5e2-dbfb76dd8230">
+    <name>ЛогСозданияОписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лог создания описания</value>
+    </synonym>
+    <type/>
+    <toolTip>
+      <key>ru</key>
+      <value>Проблемы, которые были выявлены при подготовке программного интерфейса</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="4c1fed15-8979-4cc7-b351-040870cc8bb0">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<category-def name="ru.capralow.dt.plugin.category.public" label="Плагины для EDT"/>
-	<feature url="features/ru.capralow.dt.framework.va_1.2.28.qualifier.jar" id="ru.capralow.dt.framework.va" version="1.2.28.qualifier">
+	<feature url="features/ru.capralow.dt.framework.va_1.2.31.qualifier.jar" id="ru.capralow.dt.framework.va" version="1.2.31.qualifier">
 		<category name="ru.capralow.dt.plugin.category.public"/>
 	</feature>
 </site>

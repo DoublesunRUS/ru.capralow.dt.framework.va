@@ -5,7 +5,7 @@
 
 Минимальная версия EDT: 2020.1
 
-Текущий релиз в ветке [master: 1.2.028](https://github.com/DoublesunRUS/ru.capralow.dt.framework.va/tree/master).<br>
+Текущий релиз в ветке [master: 1.2.31](https://github.com/DoublesunRUS/ru.capralow.dt.framework.va/tree/master).<br>
 
 В данном репозитории хранятся только исходники.<br>
 
@@ -13,5 +13,5 @@
 Для самостоятельной сборки плагина необходимо иметь доступ к сайту https://releases.1c.ru и настроить соответствующим образом Maven. Подробности настройки написаны [здесь](https://github.com/1C-Company/dt-example-plugins/blob/master/simple-plugin/README.md).
 
 ### Фреймворк тестирования для 1Unit
-Плагин содержит в себе фреймворк тестирования [Vanessa Automation](https://github.com/Pr-Mex/vanessa-automation) 1.2.028 и предназначен для использования совместно с плагином [1Unit](https://github.com/DoublesunRUS/ru.capralow.dt.unit.launcher).
+Плагин содержит в себе фреймворк тестирования [Vanessa Automation](https://github.com/Pr-Mex/vanessa-automation) 1.2.031 и предназначен для использования совместно с плагином [1Unit](https://github.com/DoublesunRUS/ru.capralow.dt.unit.launcher).
 

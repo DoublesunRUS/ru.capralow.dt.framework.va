@@ -1,35 +1,78 @@
 {
 	"methods": [
 		{
+			"name-en": "Assert",
+			"name-ru": "Проверить",
+			"params": [
+				{
+					"type-name-ru": "Булево",
+					"type-name-en": "Булево",
+					"type": "Boolean",
+					"name-en": "ПроверяемоеЗначение",
+					"type-descr-en": "Проверяемое значение",
+					"name-ru": "ПроверяемоеЗначение",
+					"type-descr-ru": "Проверяемое значение"
+				},
+				{
+					"type-name-en": "Строка",
+					"type-name-ru": "Строка",
+					"type": "String",
+					"name-en": "ДопСообщениеОшибки",
+					"type-descr-en": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
+					"name-ru": "ДопСообщениеОшибки",
+					"type-descr-ru": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
+					"isDefaultValue": true
+				}
+			],
+			"returnedValue": "Structure"
+		},
+		{
 			"name-en": "AssertTrue",
 			"name-ru": "ПроверитьИстину",
 			"params": [
 				{
-					"name-en": "Condition",
-					"name-ru": "_Истина",
-					"type": "Boolean"
+					"type-name-ru": "Булево",
+					"type-name-en": "Булево",
+					"type": "Boolean",
+					"name-en": "ПроверяемоеЗначение",
+					"type-descr-en": "Проверяемое значение",
+					"name-ru": "ПроверяемоеЗначение",
+					"type-descr-ru": "Проверяемое значение"
 				},
 				{
-					"name-en": "Message",
-					"name-ru": "ДопСообщениеОшибки",
+					"type-name-en": "Строка",
+					"type-name-ru": "Строка",
 					"type": "String",
+					"name-en": "ДопСообщениеОшибки",
+					"type-descr-en": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
+					"name-ru": "ДопСообщениеОшибки",
+					"type-descr-ru": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
 					"isDefaultValue": true
 				}
-			]
+			],
+			"returnedValue": "Structure"
 		},
 		{
 			"name-en": "AssertFalse",
 			"name-ru": "ПроверитьЛожь",
 			"params": [
 				{
-					"name-en": "Condition",
-					"name-ru": "_Ложь",
-					"type": "Boolean"
+					"type-name-ru": "Булево",
+					"type-name-en": "Булево",
+					"type": "Boolean",
+					"name-en": "ПроверяемоеЗначение",
+					"type-descr-en": "Проверяемое значение",
+					"name-ru": "ПроверяемоеЗначение",
+					"type-descr-ru": "Проверяемое значение"
 				},
 				{
-					"name-en": "Message",
-					"name-ru": "ДопСообщениеОшибки",
+					"type-name-en": "Строка",
+					"type-name-ru": "Строка",
 					"type": "String",
+					"name-en": "ДопСообщениеОшибки",
+					"type-descr-en": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
+					"name-ru": "ДопСообщениеОшибки",
+					"type-descr-ru": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
 					"isDefaultValue": true
 				}
 			],
@@ -40,19 +83,28 @@
 			"name-ru": "ПроверитьДату",
 			"params": [
 				{
-					"name-en": "Period",
-					"name-ru": "_Период",
-					"type": "Date"
+					"name-en": "ПроверямыйПериод",
+					"type-descr-en": "Период дат, который будет использован для проверки.",
+					"name-ru": "ПроверямыйПериод",
+					"type-descr-ru": "Период дат, который будет использован для проверки."
 				},
 				{
-					"name-en": "Date",
-					"name-ru": "_Дата",
-					"type": "Date"
+					"type-name-ru": "Дата",
+					"type-name-en": "Дата",
+					"type": "Date",
+					"name-en": "ПроверяемаяДата  ",
+					"type-descr-en": "Проверяемая дата.",
+					"name-ru": "ПроверяемаяДата  ",
+					"type-descr-ru": "Проверяемая дата."
 				},
 				{
-					"name-en": "Message",
-					"name-ru": "ДопСообщениеОшибки",
+					"type-name-en": "Строка",
+					"type-name-ru": "Строка",
 					"type": "String",
+					"name-en": "ДопСообщениеОшибки",
+					"type-descr-en": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
+					"name-ru": "ДопСообщениеОшибки",
+					"type-descr-ru": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
 					"isDefaultValue": true
 				}
 			],
@@ -63,19 +115,31 @@
 			"name-ru": "ПроверитьРавенствоДатСТочностью2Секунды",
 			"params": [
 				{
-					"name-en": "ExpectedDate",
-					"name-ru": "_Дата2",
-					"type": "Date"
+					"type-name-ru": "Дата",
+					"type-name-en": "Дата",
+					"type": "Date",
+					"name-en": "ПерваяДата",
+					"type-descr-en": "Первая проверяемая дата.",
+					"name-ru": "ПерваяДата",
+					"type-descr-ru": "Первая проверяемая дата."
 				},
 				{
-					"name-en": "ActualDate",
-					"name-ru": "_Дата",
-					"type": "Date"
+					"type-name-ru": "Дата",
+					"type-name-en": "Дата",
+					"type": "Date",
+					"name-en": "ВтораяДата",
+					"type-descr-en": "Вторая проверяемая дата.",
+					"name-ru": "ВтораяДата",
+					"type-descr-ru": "Вторая проверяемая дата."
 				},
 				{
-					"name-en": "Message",
-					"name-ru": "ДопСообщениеОшибки",
+					"type-name-en": "Строка",
+					"type-name-ru": "Строка",
 					"type": "String",
+					"name-en": "ДопСообщениеОшибки",
+					"type-descr-en": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
+					"name-ru": "ДопСообщениеОшибки",
+					"type-descr-ru": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
 					"isDefaultValue": true
 				}
 			],
@@ -86,17 +150,25 @@
 			"name-ru": "ПроверитьРавенство",
 			"params": [
 				{
-					"name-en": "Expected",
-					"name-ru": "_1"
+					"name-en": "ПервоеЗначение",
+					"type-descr-en": "Первое проверяемое значение.",
+					"name-ru": "ПервоеЗначение",
+					"type-descr-ru": "Первое проверяемое значение."
 				},
 				{
-					"name-en": "Actual",
-					"name-ru": "_2"
+					"name-en": "ВтороеЗначение",
+					"type-descr-en": "Второе проверяемое значение.",
+					"name-ru": "ВтороеЗначение",
+					"type-descr-ru": "Второе проверяемое значение."
 				},
 				{
-					"name-en": "Message",
-					"name-ru": "ДопСообщениеОшибки",
+					"type-name-en": "Строка",
+					"type-name-ru": "Строка",
 					"type": "String",
+					"name-en": "ДопСообщениеОшибки",
+					"type-descr-en": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
+					"name-ru": "ДопСообщениеОшибки",
+					"type-descr-ru": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
 					"isDefaultValue": true
 				}
 			],
@@ -107,17 +179,25 @@
 			"name-ru": "ПроверитьНеРавенство",
 			"params": [
 				{
-					"name-en": "NotExpected",
-					"name-ru": "_1"
+					"name-en": "ПервоеЗначение",
+					"type-descr-en": "Первое проверяемое значение.",
+					"name-ru": "ПервоеЗначение",
+					"type-descr-ru": "Первое проверяемое значение."
 				},
 				{
-					"name-en": "Actual",
-					"name-ru": "_2"
+					"name-en": "ВтороеЗначение",
+					"type-descr-en": "Второе проверяемое значение.",
+					"name-ru": "ВтороеЗначение",
+					"type-descr-ru": "Второе проверяемое значение."
 				},
 				{
-					"name-en": "Message",
-					"name-ru": "ДопСообщениеОшибки",
+					"type-name-en": "Строка",
+					"type-name-ru": "Строка",
 					"type": "String",
+					"name-en": "ДопСообщениеОшибки",
+					"type-descr-en": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
+					"name-ru": "ДопСообщениеОшибки",
+					"type-descr-ru": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
 					"isDefaultValue": true
 				}
 			],
@@ -128,19 +208,35 @@
 			"name-ru": "ПроверитьБольше",
 			"params": [
 				{
-					"name-en": "ExpectedNumber",
-					"name-ru": "ЭталонноеЧисло",
-					"type": "Number"
+					"name-en": "ПервоеЗначение",
+					"type-descr-en": "Первое проверяемое значение.",
+					"name-ru": "ПервоеЗначение",
+					"types": [
+						"Number",
+						"String",
+						"Date"
+					],
+					"type-descr-ru": "Первое проверяемое значение."
 				},
 				{
-					"name-en": "ActualNumber",
-					"name-ru": "ПроверяемоеЧисло",
-					"type": "Number"
+					"name-en": "ВтороеЗначение",
+					"type-descr-en": "Второе проверяемое значение.",
+					"name-ru": "ВтороеЗначение",
+					"types": [
+						"Number",
+						"String",
+						"Date"
+					],
+					"type-descr-ru": "Второе проверяемое значение."
 				},
 				{
-					"name-en": "Message",
-					"name-ru": "ДопСообщениеОшибки",
+					"type-name-en": "Строка",
+					"type-name-ru": "Строка",
 					"type": "String",
+					"name-en": "ДопСообщениеОшибки",
+					"type-descr-en": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
+					"name-ru": "ДопСообщениеОшибки",
+					"type-descr-ru": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
 					"isDefaultValue": true
 				}
 			],
@@ -151,19 +247,35 @@
 			"name-ru": "ПроверитьБольшеИлиРавно",
 			"params": [
 				{
-					"name-en": "ExpectedNumber",
-					"name-ru": "ЭталонноеЧисло",
-					"type": "Number"
+					"name-en": "ПервоеЗначение",
+					"type-descr-en": "Первое проверяемое значение.",
+					"name-ru": "ПервоеЗначение",
+					"types": [
+						"Number",
+						"String",
+						"Date"
+					],
+					"type-descr-ru": "Первое проверяемое значение."
 				},
 				{
-					"name-en": "ActualNumber",
-					"name-ru": "ПроверяемоеЧисло",
-					"type": "Number"
+					"name-en": "ВтороеЗначение",
+					"type-descr-en": "Второе проверяемое значение.",
+					"name-ru": "ВтороеЗначение",
+					"types": [
+						"Number",
+						"String",
+						"Date"
+					],
+					"type-descr-ru": "Второе проверяемое значение."
 				},
 				{
-					"name-en": "Message",
-					"name-ru": "ДопСообщениеОшибки",
+					"type-name-en": "Строка",
+					"type-name-ru": "Строка",
 					"type": "String",
+					"name-en": "ДопСообщениеОшибки",
+					"type-descr-en": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
+					"name-ru": "ДопСообщениеОшибки",
+					"type-descr-ru": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
 					"isDefaultValue": true
 				}
 			],
@@ -174,19 +286,35 @@
 			"name-ru": "ПроверитьМеньше",
 			"params": [
 				{
-					"name-en": "ExpectedNumber",
-					"name-ru": "ЭталонноеЧисло",
-					"type": "Number"
+					"name-en": "ПервоеЗначение",
+					"type-descr-en": "Первое проверяемое значение.",
+					"name-ru": "ПервоеЗначение",
+					"types": [
+						"Number",
+						"String",
+						"Date"
+					],
+					"type-descr-ru": "Первое проверяемое значение."
 				},
 				{
-					"name-en": "ActualNumber",
-					"name-ru": "ПроверяемоеЧисло",
-					"type": "Number"
+					"name-en": "ВтороеЗначение",
+					"type-descr-en": "Второе проверяемое значение.",
+					"name-ru": "ВтороеЗначение",
+					"types": [
+						"Number",
+						"String",
+						"Date"
+					],
+					"type-descr-ru": "Второе проверяемое значение."
 				},
 				{
-					"name-en": "Message",
-					"name-ru": "ДопСообщениеОшибки",
+					"type-name-en": "Строка",
+					"type-name-ru": "Строка",
 					"type": "String",
+					"name-en": "ДопСообщениеОшибки",
+					"type-descr-en": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
+					"name-ru": "ДопСообщениеОшибки",
+					"type-descr-ru": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
 					"isDefaultValue": true
 				}
 			],
@@ -197,19 +325,35 @@
 			"name-ru": "ПроверитьМеньшеИлиРавно",
 			"params": [
 				{
-					"name-en": "ExpectedNumber",
-					"name-ru": "ЭталонноеЧисло",
-					"type": "Number"
+					"name-en": "ПервоеЗначение",
+					"type-descr-en": "Первое проверяемое значение.",
+					"name-ru": "ПервоеЗначение",
+					"types": [
+						"Number",
+						"String",
+						"Date"
+					],
+					"type-descr-ru": "Первое проверяемое значение."
 				},
 				{
-					"name-en": "ActualNumber",
-					"name-ru": "ПроверяемоеЧисло",
-					"type": "Number"
+					"name-en": "ВтороеЗначение",
+					"type-descr-en": "Второе проверяемое значение.",
+					"name-ru": "ВтороеЗначение",
+					"types": [
+						"Number",
+						"String",
+						"Date"
+					],
+					"type-descr-ru": "Второе проверяемое значение."
 				},
 				{
-					"name-en": "Message",
-					"name-ru": "ДопСообщениеОшибки",
+					"type-name-en": "Строка",
+					"type-name-ru": "Строка",
 					"type": "String",
+					"name-en": "ДопСообщениеОшибки",
+					"type-descr-en": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
+					"name-ru": "ДопСообщениеОшибки",
+					"type-descr-ru": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
 					"isDefaultValue": true
 				}
 			],
@@ -220,22 +364,24 @@
 			"name-ru": "ПроверитьВыполнилось",
 			"params": [
 				{
-					"name-en": "Algorithm",
-					"name-ru": "СтрокаАлгоритм",
+					"type-name-en": "Строка",
+					"type-name-ru": "Строка",
 					"type": "String",
+					"name-ru": "СтрокаАлгоритм",
+					"type-descr-ru": "Строковое выражение, которое будет выполнено.",
+					"name-en": "СтрокаАлгоритм",
+					"type-descr-en": "Строковое выражение, которое будет выполнено.",
 					"isOut": true
 				},
 				{
-					"name-en": "ArgsOrMessage",
-					"name-ru": "ПараметрыИлиДопСообщениеОшибки",
-					"types": ["Structure", "String"],
-					"isDefaultValue": true
-				},
-				{
-					"name-en": "Message",
-					"name-ru": "ДопСообщениеОшибки",
+					"type-name-en": "Строка",
+					"type-name-ru": "Строка",
 					"type": "String",
+					"name-en": "ДопСообщениеОшибки",
+					"type-descr-en": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
 					"isOut": true,
+					"name-ru": "ДопСообщениеОшибки",
+					"type-descr-ru": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
 					"isDefaultValue": true
 				}
 			],
@@ -246,26 +392,39 @@
 			"name-ru": "ПроверитьМетодВыполнился",
 			"params": [
 				{
-					"name-en": "Object",
-					"name-ru": "Объект"
+					"name-en": "Объект",
+					"type-descr-en": "Объект, методо которого будет проверяться.",
+					"name-ru": "Объект",
+					"type-descr-ru": "Объект, методо которого будет проверяться."
 				},
 				{
-					"name-en": "MethodName",
-					"name-ru": "ИмяМетода",
+					"type-name-en": "Строка",
+					"type-name-ru": "Строка",
 					"type": "String",
+					"name-ru": "ИмяМетода",
+					"type-descr-ru": "Имя метода.",
+					"name-en": "ИмяМетода",
+					"type-descr-en": "Имя метода.",
 					"isOut": true
 				},
 				{
-					"name-en": "ArgsOrMessage",
+					"name-en": "ПараметрыИлиДопСообщениеОшибки",
 					"name-ru": "ПараметрыИлиДопСообщениеОшибки",
-					"types": ["Array", "String"],
+					"types": [
+						"String",
+						"Array"
+					],
 					"isDefaultValue": true
 				},
 				{
-					"name-en": "Message",
-					"name-ru": "ДопСообщениеОшибки",
+					"type-name-en": "Строка",
+					"type-name-ru": "Строка",
 					"type": "String",
+					"name-en": "ДопСообщениеОшибки",
+					"type-descr-en": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
 					"isOut": true,
+					"name-ru": "ДопСообщениеОшибки",
+					"type-descr-ru": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
 					"isDefaultValue": true
 				}
 			],
@@ -276,29 +435,35 @@
 			"name-ru": "ПроверитьНеВыполнилось",
 			"params": [
 				{
-					"name-en": "Algorithm",
-					"name-ru": "СтрокаАлгоритм",
+					"type-name-en": "Строка",
+					"type-name-ru": "Строка",
 					"type": "String",
+					"name-ru": "СтрокаАлгоритм",
+					"type-descr-ru": "Строковое выражение, которое будет выполнено.",
+					"name-en": "СтрокаАлгоритм",
+					"type-descr-en": "Строковое выражение, которое будет выполнено.",
 					"isOut": true
 				},
 				{
-					"name-en": "ArgsOrThrowsException",
-					"name-ru": "ПараметрыИлиОжидаемоеОписаниеОшибки",
-					"types": ["Structure", "String"],
-					"isDefaultValue": true
-				},
-				{
-					"name-en": "ThrowsExceptionOrMessage",
-					"name-ru": "ОжидаемоеОписаниеОшибкиИлиДопСообщениеОшибки",
+					"type-name-en": "Строка",
+					"type-name-ru": "Строка",
 					"type": "String",
+					"name-en": "ОжидаемоеОписаниеОшибки",
+					"type-descr-en": "По этой строке будет выполнен поиск в тексте исключения.",
 					"isOut": true,
+					"name-ru": "ОжидаемоеОписаниеОшибки",
+					"type-descr-ru": "По этой строке будет выполнен поиск в тексте исключения.",
 					"isDefaultValue": true
 				},
 				{
-					"name-en": "Message",
+					"type-name-en": "Строка",
+					"type-name-ru": "Строка",
+					"type": "String",
+					"name-en": "ДопСообщениеОшибки",
+					"type-descr-en": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
+					"isOut": true,
 					"name-ru": "ДопСообщениеОшибки",
-					"type": "String",
-					"isOut": true,
+					"type-descr-ru": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
 					"isDefaultValue": true
 				}
 			],
@@ -309,32 +474,48 @@
 			"name-ru": "ПроверитьМетодНеВыполнился",
 			"params": [
 				{
-					"name-en": "Object",
-					"name-ru": "Объект"
+					"name-en": "Объект",
+					"type-descr-en": "Объект, методо которого будет проверяться.",
+					"name-ru": "Объект",
+					"type-descr-ru": "Объект, методо которого будет проверяться."
 				},
 				{
-					"name-en": "MethodName",
+					"type-name-ru": "Строка",
+					"type-name-en": "Строка",
+					"type": "String",
+					"name-en": "ИмяМетода",
+					"type-descr-en": "Имя метода.",
 					"name-ru": "ИмяМетода",
-					"type": "String"
+					"type-descr-ru": "Имя метода."
 				},
 				{
-					"name-en": "ArgsOrThrowsException",
+					"name-en": "ПараметрыИлиОжидаемоеОписаниеОшибки",
 					"name-ru": "ПараметрыИлиОжидаемоеОписаниеОшибки",
-					"types": ["Array", "String"],
-					"isDefaultValue": true
+					"types": [
+						"String",
+						"Array"
+					]
 				},
 				{
-					"name-en": "ThrowsExceptionOrMessage",
+					"type-name-en": "Строка",
+					"type-name-ru": "Строка",
+					"type": "String",
+					"name-en": "ОжидаемоеОписаниеОшибкиИлиДопСообщениеОшибки",
+					"type-descr-en": "Строка, должна быть в строке исключения метода.",
+					"isOut": true,
 					"name-ru": "ОжидаемоеОписаниеОшибкиИлиДопСообщениеОшибки",
-					"type": "String",
-					"isOut": true,
+					"type-descr-ru": "Строка, должна быть в строке исключения метода.",
 					"isDefaultValue": true
 				},
 				{
-					"name-en": "Message",
-					"name-ru": "ДопСообщениеОшибки",
+					"type-name-en": "Строка",
+					"type-name-ru": "Строка",
 					"type": "String",
+					"name-en": "ДопСообщениеОшибки",
+					"type-descr-en": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
 					"isOut": true,
+					"name-ru": "ДопСообщениеОшибки",
+					"type-descr-ru": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
 					"isDefaultValue": true
 				}
 			],
@@ -345,13 +526,19 @@
 			"name-ru": "ПроверитьЗаполненность",
 			"params": [
 				{
-					"name-en": "Value",
-					"name-ru": "ПроверяемоеЗначение"
+					"name-en": "ПроверяемоеЗначение",
+					"type-descr-en": "Проверяемое на пустоту значение.",
+					"name-ru": "ПроверяемоеЗначение",
+					"type-descr-ru": "Проверяемое на пустоту значение."
 				},
 				{
-					"name-en": "Message",
-					"name-ru": "ДопСообщениеОшибки",
+					"type-name-en": "Строка",
+					"type-name-ru": "Строка",
 					"type": "String",
+					"name-en": "ДопСообщениеОшибки",
+					"type-descr-en": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
+					"name-ru": "ДопСообщениеОшибки",
+					"type-descr-ru": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
 					"isDefaultValue": true
 				}
 			],
@@ -362,13 +549,19 @@
 			"name-ru": "ПроверитьНеЗаполненность",
 			"params": [
 				{
-					"name-en": "Value",
-					"name-ru": "ПроверяемоеЗначение"
+					"name-en": "ПроверяемоеЗначение",
+					"type-descr-en": "Проверяемое на пустоту значение.",
+					"name-ru": "ПроверяемоеЗначение",
+					"type-descr-ru": "Проверяемое на пустоту значение."
 				},
 				{
-					"name-en": "Message",
-					"name-ru": "ДопСообщениеОшибки",
+					"type-name-en": "Строка",
+					"type-name-ru": "Строка",
 					"type": "String",
+					"name-en": "ДопСообщениеОшибки",
+					"type-descr-en": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
+					"name-ru": "ДопСообщениеОшибки",
+					"type-descr-ru": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
 					"isDefaultValue": true
 				}
 			],
@@ -379,18 +572,29 @@
 			"name-ru": "ПроверитьТип",
 			"params": [
 				{
-					"name-en": "Value",
-					"name-ru": "значение"
+					"name-en": "ПроверяемоеЗначение",
+					"type-descr-en": "Проверяемое значение.",
+					"name-ru": "ПроверяемоеЗначение",
+					"type-descr-ru": "Проверяемое значение."
 				},
 				{
-					"name-en": "TypeOrTypeName",
-					"name-ru": "ТипИлиИмяТипа",
-					"types": ["Type", "String"]
+					"name-en": "ТипИлиИмяТипа      ",
+					"type-descr-en": "Тип значения.",
+					"name-ru": "ТипИлиИмяТипа      ",
+					"types": [
+						"String",
+						"Type"
+					],
+					"type-descr-ru": "Тип значения."
 				},
 				{
-					"name-en": "Message",
-					"name-ru": "ДопСообщениеОшибки",
+					"type-name-en": "Строка",
+					"type-name-ru": "Строка",
 					"type": "String",
+					"name-en": "ДопСообщениеОшибки",
+					"type-descr-en": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
+					"name-ru": "ДопСообщениеОшибки",
+					"type-descr-ru": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
 					"isDefaultValue": true
 				}
 			],
@@ -401,19 +605,31 @@
 			"name-ru": "ПроверитьВхождение",
 			"params": [
 				{
-					"name-en": "String",
-					"name-ru": "строка",
-					"type": "String"
-				},
-				{
-					"name-en": "Substring",
-					"name-ru": "подстрокаПоиска",
-					"type": "String"
-				},
-				{
-					"name-en": "Message",
-					"name-ru": "ДопСообщениеОшибки",
+					"type-name-ru": "Строка",
+					"type-name-en": "Строка",
 					"type": "String",
+					"name-en": "Строка            ",
+					"type-descr-en": "Строка, в которой происходит поиск.",
+					"name-ru": "Строка            ",
+					"type-descr-ru": "Строка, в которой происходит поиск."
+				},
+				{
+					"type-name-ru": "Строка",
+					"type-name-en": "Строка",
+					"type": "String",
+					"name-en": "ПодстрокаПоиска   ",
+					"type-descr-en": "Строка, которая ищется.",
+					"name-ru": "ПодстрокаПоиска   ",
+					"type-descr-ru": "Строка, которая ищется."
+				},
+				{
+					"type-name-en": "Строка",
+					"type-name-ru": "Строка",
+					"type": "String",
+					"name-en": "ДопСообщениеОшибки",
+					"type-descr-en": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
+					"name-ru": "ДопСообщениеОшибки",
+					"type-descr-ru": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
 					"isDefaultValue": true
 				}
 			],
@@ -424,85 +640,251 @@
 			"name-ru": "ПроверитьВхождениеВКоллекцию",
 			"params": [
 				{
-					"name-en": "Item",
-					"name-ru": "Элемент"
+					"name-en": "Элемент           ",
+					"type-descr-en": "Значение, которое будет искаться в коллекции.",
+					"name-ru": "Элемент           ",
+					"type-descr-ru": "Значение, которое будет искаться в коллекции."
 				},
 				{
-					"name-en": "Collection",
-					"name-ru": "Коллекция",
-					"types": ["Array", "FixedArray", "Structure", "FixedStructure", "ReferenceValue", "FixedReferenceValue", "TypedValueList"]
+					"name-en": "Коллекция         ",
+					"type-descr-en": "Коллекция значений.",
+					"name-ru": "Коллекция         ",
+					"types": [
+						"Array",
+						"Structure",
+						"ReferenceValue",
+						"FixedArray",
+						"FixedStructure",
+						"FixedReferenceValue",
+						"TypedValueList"
+					],
+					"type-descr-ru": "Коллекция значений."
 				},
 				{
-					"name-en": "Message",
-					"name-ru": "ДопСообщениеОшибки",
+					"name-en": "Коллекция         ",
+					"name-ru": "Коллекция         ",
+					"types": [
+						"Array",
+						"Structure",
+						"ReferenceValue",
+						"FixedArray",
+						"FixedStructure",
+						"FixedReferenceValue",
+						"TypedValueList"
+					]
+				},
+				{
+					"type-name-en": "Строка",
+					"type-name-ru": "Строка",
 					"type": "String",
+					"name-en": "ДопСообщениеОшибки",
+					"type-descr-en": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
+					"name-ru": "ДопСообщениеОшибки",
+					"type-descr-ru": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
 					"isDefaultValue": true
 				}
 			],
 			"returnedValue": "Structure"
 		},
 		{
+			"name-en": "AssertПроверитьВалидностьЗапросаСКД",
+			"name-ru": "ПроверитьВалидностьЗапросаСКД",
+			"params": [
+				{
+					"type-name-ru": "Строка",
+					"type-name-en": "Строка",
+					"type": "String",
+					"name-en": "ТекстЗапроса      ",
+					"type-descr-en": "Текст запроса.",
+					"name-ru": "ТекстЗапроса      ",
+					"type-descr-ru": "Текст запроса."
+				},
+				{
+					"type-name-en": "Строка",
+					"type-name-ru": "Строка",
+					"type": "String",
+					"name-en": "ДопСообщениеОшибки",
+					"type-descr-en": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
+					"name-ru": "ДопСообщениеОшибки",
+					"type-descr-ru": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
+					"isDefaultValue": true
+				}
+			]
+		},
+		{
+			"name-en": "AssertПроверитьРавенствоТабличныхДокументовТолькоПоЗначениям",
+			"name-ru": "ПроверитьРавенствоТабличныхДокументовТолькоПоЗначениям",
+			"params": [
+				{
+					"type-name-ru": "ТабличныйДокумент",
+					"type-name-en": "ТабличныйДокумент",
+					"type": "TableValueList",
+					"name-en": "ТабДок1      ",
+					"type-descr-en": "Табличный документ.",
+					"name-ru": "ТабДок1      ",
+					"type-descr-ru": "Табличный документ."
+				},
+				{
+					"type-name-ru": "ТабличныйДокумент",
+					"type-name-en": "ТабличныйДокумент",
+					"type": "TableValueList",
+					"name-en": "ТабДок2      ",
+					"type-descr-en": "Табличный документ.",
+					"name-ru": "ТабДок2      ",
+					"type-descr-ru": "Табличный документ."
+				},
+				{
+					"name-en": "УчитыватьТолькоВидимыеКолонкиИлиДопСообщениеОшибки",
+					"type-descr-en": "Флаг, указывающий, что нужно проверять только видимые колонки.",
+					"type-descr-ru": "Флаг, указывающий, что нужно проверять только видимые колонки.",
+					"name-ru": "УчитыватьТолькоВидимыеКолонкиИлиДопСообщениеОшибки",
+					"types": [
+						"Boolean",
+						"String"
+					],
+					"isDefaultValue": true
+				},
+				{
+					"name-en": "УчитыватьТолькоВидимыеСтрокиИлиДопСообщениеОшибки ",
+					"type-descr-en": "Флаг, указывающий, что нужно проверять только видимые строки.",
+					"name-ru": "УчитыватьТолькоВидимыеСтрокиИлиДопСообщениеОшибки ",
+					"types": [
+						"Boolean",
+						"String"
+					],
+					"type-descr-ru": "Флаг, указывающий, что нужно проверять только видимые строки."
+				},
+				{
+					"type-name-en": "Строка",
+					"type-name-ru": "Строка",
+					"type": "String",
+					"name-en": "ДопСообщениеОшибки",
+					"type-descr-en": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
+					"isOut": true,
+					"name-ru": "ДопСообщениеОшибки",
+					"type-descr-ru": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
+					"isDefaultValue": true
+				},
+				{
+					"type-name-en": "Структура",
+					"type-name-ru": "Структура",
+					"type": "Structure",
+					"name-en": "ДопПараметры",
+					"type-descr-en": "Дополнительные параметры.",
+					"name-ru": "ДопПараметры",
+					"type-descr-ru": "Дополнительные параметры.",
+					"isDefaultValue": true
+				}
+			]
+		},
+		{
 			"name-en": "AssertEqualValueTable",
 			"name-ru": "ПроверитьРавенствоТаблиц",
 			"params": [
 				{
-					"name-en": "ExpectedValueTable",
-					"name-ru": "Таб1",
-					"type": "TableValueList"
+					"type-name-ru": "ТабличныйДокумент",
+					"type-name-en": "ТабличныйДокумент",
+					"type": "TableValueList",
+					"name-en": "Таб1      ",
+					"type-descr-en": "Коллекция значений.",
+					"name-ru": "Таб1      ",
+					"type-descr-ru": "Коллекция значений."
 				},
 				{
-					"name-en": "ActualValueTable",
-					"name-ru": "Таб2",
-					"type": "TableValueList"
+					"type-name-ru": "ТабличныйДокумент",
+					"type-name-en": "ТабличныйДокумент",
+					"type": "TableValueList",
+					"name-en": "Таб2      ",
+					"type-descr-en": "Коллекция значений.",
+					"name-ru": "Таб2      ",
+					"type-descr-ru": "Коллекция значений."
 				},
 				{
-					"name-en": "Message",
+					"type-name-en": "Строка",
+					"type-name-ru": "Строка",
+					"type": "String",
+					"name-en": "ДопСообщениеОшибки",
+					"type-descr-en": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
 					"name-ru": "ДопСообщениеОшибки",
-					"type": "String",
+					"type-descr-ru": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
 					"isDefaultValue": true
 				},
 				{
-					"name-en": "Params",
+					"type-name-en": "Структура",
+					"type-name-ru": "Структура",
+					"type": "Structure",
+					"name-en": "ДопПараметры",
+					"type-descr-en": "Дополнительные параметры.",
 					"name-ru": "ДопПараметры",
-					"type": "Structure"
+					"type-descr-ru": "Дополнительные параметры.",
+					"isDefaultValue": true
 				}
 			]
 		},
 		{
-			"name-en": "GetVanessaAutomationState",
-			"name-ru": "ПолучитьСостояниеVanessaAutomation",
-			"returnedValue": "Structure"
-		},
-		{
-			"name-en": "StopRunning",
-			"name-ru": "ЗапретитьВыполнениеШагов"
-		},
-		{
-			"name-en": "ContinueRunning",
-			"name-ru": "ПродолжитьВыполнениеШагов",
+			"name-en": "AssertПроверитьРавенствоФайлов",
+			"name-ru": "ПроверитьРавенствоФайлов",
 			"params": [
 				{
-					"name-en": "IsError",
-					"name-ru": "ШагУпал",
-					"type": "Boolean",
-					"isDefaultValue": true
+					"type-name-ru": "Строка",
+					"type-name-en": "Строка",
+					"type": "String",
+					"name-en": "ПутьФайла1, ПутьФайла2",
+					"type-descr-en": "полные пути к файлам",
+					"name-ru": "ПутьФайла1, ПутьФайла2",
+					"type-descr-ru": "полные пути к файлам"
 				},
 				{
-					"name-en": "ErrorDescription",
-					"name-ru": "ОписаниеОшибки",
+					"type-name-ru": "Строка",
+					"type-name-en": "Строка",
 					"type": "String",
-					"isDefaultValue": true
-				}
-			]
-		},
-		{
-			"name-en": "AddError",
-			"name-ru": "ДобавитьОшибкуСценария",
-			"params": [
+					"name-en": "ДопСообщениеОшибки    ",
+					"type-descr-en": "Описание ошибки, которое будет использовано в тексте исключения ассерта.",
+					"name-ru": "ДопСообщениеОшибки    ",
+					"type-descr-ru": "Описание ошибки, которое будет использовано в тексте исключения ассерта."
+				},
 				{
-					"name-en": "ErrorDescription",
-					"name-ru": "ТекстОшибки",
-					"type": "String"
+					"type-name-ru": "Структура",
+					"type-name-en": "Структура",
+					"type": "Structure",
+					"name-en": "ПарамСравнениеФайлов  ",
+					"type-descr-en": "структура с ключами:",
+					"name-ru": "ПарамСравнениеФайлов  ",
+					"type-descr-ru": "структура с ключами:"
+				},
+				{
+					"name-en": " * ИгнорироватьПустоеПространство",
+					"name-ru": " * ИгнорироватьПустоеПространство",
+					"type-name-ru": "Булево",
+					"type-name-en": "Булево",
+					"type": "Boolean"
+				},
+				{
+					"name-en": " * СпособСравнения               ",
+					"name-ru": " * СпособСравнения               "
+				},
+				{
+					"name-en": " * УчитыватьРазделителиСтрок     ",
+					"name-ru": " * УчитыватьРазделителиСтрок     ",
+					"type-name-ru": "Булево",
+					"type-name-en": "Булево",
+					"type": "Boolean"
+				},
+				{
+					"name-en": " * УчитыватьРегистр              ",
+					"name-ru": " * УчитыватьРегистр              ",
+					"type-name-ru": "Булево",
+					"type-name-en": "Булево",
+					"type": "Boolean"
+				},
+				{
+					"type-name-ru": "Строка",
+					"type-name-en": "Строка",
+					"type": "String",
+					"name-en": "ПоказатьРазличия      ",
+					"type-descr-en": "в случае ошибки появляется окно сравнения (для отладки)",
+					"name-ru": "ПоказатьРазличия      ",
+					"type-descr-ru": "в случае ошибки появляется окно сравнения (для отладки)"
 				}
 			]
 		}

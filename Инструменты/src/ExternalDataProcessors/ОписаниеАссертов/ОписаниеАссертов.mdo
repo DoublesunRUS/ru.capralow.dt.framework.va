@@ -10,6 +10,60 @@
   </synonym>
   <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="df52a1f3-6175-4dea-8bce-445fa129ec11"/>
   <defaultForm>ExternalDataProcessor.ОписаниеАссертов.Form.Форма</defaultForm>
+  <attributes uuid="d9edf5f1-a65b-4d7c-ad58-027e4c70963f">
+    <name>ПутьКПлагину</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к плагину</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+  </attributes>
+  <attributes uuid="bc87f557-23c3-4025-abbd-fd44de977407">
+    <name>МаксимальнаяВерсияПлатформы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальная версия платформы</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:StringValue">
+      <value>14</value>
+    </minValue>
+  </attributes>
+  <attributes uuid="6146e661-1fb3-4e45-a6aa-ef6aa9c44141">
+    <name>ОбластьАссертовRU</name>
+    <synonym>
+      <key>ru</key>
+      <value>Область ассертов RU</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="1ffd7f9f-8d4e-45ae-bb5d-e1aacd77f433">
+    <name>ОбластьАссертовEN</name>
+    <synonym>
+      <key>ru</key>
+      <value>Область ассертов EN</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
   <attributes uuid="b8ac7746-42ff-4c1c-9d27-28d2db33399b">
     <name>ТекстМодуля</name>
     <synonym>
@@ -22,19 +76,6 @@
     </type>
     <multiLine>true</multiLine>
     <extendedEdit>true</extendedEdit>
-  </attributes>
-  <attributes uuid="6146e661-1fb3-4e45-a6aa-ef6aa9c44141">
-    <name>ОбластьАссертов</name>
-    <synonym>
-      <key>ru</key>
-      <value>Область ассертов</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>150</length>
-      </stringQualifiers>
-    </type>
   </attributes>
   <attributes uuid="e04ff1cc-0459-4685-a5e2-dbfb76dd8230">
     <name>ЛогСозданияОписания</name>

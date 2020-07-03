@@ -6,7 +6,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>ru.capralow.dt.framework.va</groupId>
 	<artifactId>build</artifactId>
-	<version>1.2.32-SNAPSHOT</version>
+	<version>1.2.33-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>${name}</name>
@@ -59,13 +59,13 @@
 						<artifact>
 							<groupId>ru.capralow.dt.framework.va.target</groupId>
 							<artifactId>default</artifactId>
-							<version>1.2.32-SNAPSHOT</version>
+							<version>1.2.33-SNAPSHOT</version>
 						</artifact>
 					</target>
 					<environments>
 						<environment>
-							<os>win32</os>
-							<ws>win32</ws>
+							<os>win33</os>
+							<ws>win33</ws>
 							<arch>x86_64</arch>
 						</environment>
 						<environment>

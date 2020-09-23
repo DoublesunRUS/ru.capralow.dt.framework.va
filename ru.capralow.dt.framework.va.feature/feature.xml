@@ -2,7 +2,7 @@
 <feature
       id="ru.capralow.dt.framework.va"
       label="%featureName"
-      version="1.2.33.qualifier"
+      version="1.2.34.qualifier"
       provider-name="%providerName">
 
    <description>

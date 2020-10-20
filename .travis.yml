@@ -18,7 +18,7 @@ before_install:
   - cp bom/settings.xml $HOME/.m2/settings.xml
   
 script: 
-- mvn clean verify -Pfind-bugs -Dtycho.localArtifacts=ignore sonar:sonar -Dsonar.projectKey=$SONAR_PROJECT_KEY -Dsonar.java.source=11
+- mvn clean verify -Pfind-bugs -Dtycho.localArtifacts=ignore -B -V sonar:sonar -Dsonar.projectKey=$SONAR_PROJECT_KEY -Dsonar.java.source=11
 
 cache:
   directories:

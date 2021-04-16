@@ -96,14 +96,11 @@ jobs:
         asset_name: repo.zip
         asset_content_type: application/zip
 
-    - name: Upload repo to ftp
+    - name: Upload repo to ftp on success
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
       if: success()
-      env:
-        FTPNAME: ${{ secrets.GTP_USER }}
-        FTPPASS: ${{ secrets.GTP_USER }}
       with:
-        server: ${{ secrets.ftp_server }}
+        server: capralow.ru
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
         server-dir: unit.framework.va/latest/

@@ -1,4 +1,4 @@
-﻿https://github.com/DoublesunRUS/ru.capralow.dt.framework.va/workflows/CI/badge.svg
+﻿![Build](https://github.com/DoublesunRUS/ru.capralow.dt.framework.va/workflows/CI/badge.svg)
 
 
 ## Vanessa Automation для 1Unit для [1C:Enterprise Development Tools](http://v8.1c.ru/overview/IDE/) 2020.6

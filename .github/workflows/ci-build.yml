@@ -56,12 +56,6 @@ jobs:
         name: dt-framework-va-repository
         path: repositories/ru.capralow.dt.framework.va.repository/target/repository/
         
-    - name: Upload SDK repo
-      uses: actions/upload-artifact@v2
-      with:
-        name: dt-framework-va-repository-sdk
-        path: repositories/com.e1c.ssl.repository.sdk/target/repository/
-    
     - name: Upload JaCoCo exec data
       uses: actions/upload-artifact@v2
       if: always()

@@ -53,12 +53,6 @@ jobs:
         name: repo
         path: repositories/ru.capralow.dt.framework.va.repository/target/repository/
         
-    - name: Upload SDK repo
-      uses: actions/upload-artifact@v2
-      with:
-        name: sdk-repo
-        path: repositories/ru.capralow.dt.framework.va.repository.sdk/target/repository/
-    
     - name: Upload JaCoCo exec data
       uses: actions/upload-artifact@v2
       if: always()
@@ -92,7 +86,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: ./repositories/ru.capralow.dt.framework.va.repository.sdk/target/ru.capralow.dt.framework.va.repository.sdk.zip
+        asset_path: ./repositories/ru.capralow.dt.framework.va.repository/target/ru.capralow.dt.framework.va.repository.zip
         asset_name: repo.zip
         asset_content_type: application/zip
 

@@ -1,4 +1,4 @@
-﻿# VA для 1Unit [![Build Status](https://travis-ci.com/DoublesunRUS/ru.capralow.dt.framework.va.svg)](https://travis-ci.com/DoublesunRUS/ru.capralow.dt.framework.va) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=DoublesunRUS_ru.capralow.dt.framework.va&metric=alert_status)](https://sonarcloud.io/dashboard?id=DoublesunRUS_ru.capralow.dt.framework.va) [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=DoublesunRUS_ru.capralow.dt.framework.va&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=DoublesunRUS_ru.capralow.dt.framework.va) [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=DoublesunRUS_ru.capralow.dt.framework.va&metric=coverage)](https://sonarcloud.io/dashboard?id=DoublesunRUS_ru.capralow.dt.framework.va)
+﻿https://github.com/DoublesunRUS/ru.capralow.dt.framework.va/workflows/CI/badge.svg
 
 
 ## Vanessa Automation для 1Unit для [1C:Enterprise Development Tools](http://v8.1c.ru/overview/IDE/) 2020.6

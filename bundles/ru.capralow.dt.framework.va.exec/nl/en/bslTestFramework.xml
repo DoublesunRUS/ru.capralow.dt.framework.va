@@ -40,6 +40,10 @@
 		<description> Проверяет, что переданное значение является Истиной.</description>
 		<topic href="html/TestFramework.Assert2.htm" label="Assert"/>
 	</context>
+	<context id="v8_3_18$TestFramework#Assert2" title="Assert">
+		<description> Проверяет, что переданное значение является Истиной.</description>
+		<topic href="html/TestFramework.Assert2.htm" label="Assert"/>
+	</context>
 	<context id="v8_3_8$TestFramework#AssertTrue2" title="AssertTrue">
 		<description> Проверяет, что переданное значение является Истиной.</description>
 		<topic href="html/TestFramework.AssertTrue2.htm" label="AssertTrue"/>
@@ -77,6 +81,10 @@
 		<topic href="html/TestFramework.AssertTrue2.htm" label="AssertTrue"/>
 	</context>
 	<context id="v8_3_17$TestFramework#AssertTrue2" title="AssertTrue">
+		<description> Проверяет, что переданное значение является Истиной.</description>
+		<topic href="html/TestFramework.AssertTrue2.htm" label="AssertTrue"/>
+	</context>
+	<context id="v8_3_18$TestFramework#AssertTrue2" title="AssertTrue">
 		<description> Проверяет, что переданное значение является Истиной.</description>
 		<topic href="html/TestFramework.AssertTrue2.htm" label="AssertTrue"/>
 	</context>
@@ -120,6 +128,10 @@
 		<description> Проверяет, что переданное значение является Ложью.</description>
 		<topic href="html/TestFramework.AssertFalse2.htm" label="AssertFalse"/>
 	</context>
+	<context id="v8_3_18$TestFramework#AssertFalse2" title="AssertFalse">
+		<description> Проверяет, что переданное значение является Ложью.</description>
+		<topic href="html/TestFramework.AssertFalse2.htm" label="AssertFalse"/>
+	</context>
 	<context id="v8_3_8$TestFramework#AssertDate3" title="AssertDate">
 		<description> Проверяет, что переданная дата входит в переданный период дат.</description>
 		<topic href="html/TestFramework.AssertDate3.htm" label="AssertDate"/>
@@ -157,6 +169,10 @@
 		<topic href="html/TestFramework.AssertDate3.htm" label="AssertDate"/>
 	</context>
 	<context id="v8_3_17$TestFramework#AssertDate3" title="AssertDate">
+		<description> Проверяет, что переданная дата входит в переданный период дат.</description>
+		<topic href="html/TestFramework.AssertDate3.htm" label="AssertDate"/>
+	</context>
+	<context id="v8_3_18$TestFramework#AssertDate3" title="AssertDate">
 		<description> Проверяет, что переданная дата входит в переданный период дат.</description>
 		<topic href="html/TestFramework.AssertDate3.htm" label="AssertDate"/>
 	</context>
@@ -200,6 +216,10 @@
 		<description> Проверяет равенство дат с точностью до двух секунд.</description>
 		<topic href="html/TestFramework.AssertDateWithin2Seconds3.htm" label="AssertDateWithin2Seconds"/>
 	</context>
+	<context id="v8_3_18$TestFramework#AssertDateWithin2Seconds3" title="AssertDateWithin2Seconds">
+		<description> Проверяет равенство дат с точностью до двух секунд.</description>
+		<topic href="html/TestFramework.AssertDateWithin2Seconds3.htm" label="AssertDateWithin2Seconds"/>
+	</context>
 	<context id="v8_3_8$TestFramework#AssertEqual3" title="AssertEqual">
 		<description> Проверяет равенство двух значений.</description>
 		<topic href="html/TestFramework.AssertEqual3.htm" label="AssertEqual"/>
@@ -237,6 +257,10 @@
 		<topic href="html/TestFramework.AssertEqual3.htm" label="AssertEqual"/>
 	</context>
 	<context id="v8_3_17$TestFramework#AssertEqual3" title="AssertEqual">
+		<description> Проверяет равенство двух значений.</description>
+		<topic href="html/TestFramework.AssertEqual3.htm" label="AssertEqual"/>
+	</context>
+	<context id="v8_3_18$TestFramework#AssertEqual3" title="AssertEqual">
 		<description> Проверяет равенство двух значений.</description>
 		<topic href="html/TestFramework.AssertEqual3.htm" label="AssertEqual"/>
 	</context>
@@ -280,6 +304,10 @@
 		<description> Проверяет неравенство двух значений.</description>
 		<topic href="html/TestFramework.AssertNotEqual3.htm" label="AssertNotEqual"/>
 	</context>
+	<context id="v8_3_18$TestFramework#AssertNotEqual3" title="AssertNotEqual">
+		<description> Проверяет неравенство двух значений.</description>
+		<topic href="html/TestFramework.AssertNotEqual3.htm" label="AssertNotEqual"/>
+	</context>
 	<context id="v8_3_8$TestFramework#AssertGreater3" title="AssertGreater">
 		<description> Проверяет, что второе значение больше первого.</description>
 		<topic href="html/TestFramework.AssertGreater3.htm" label="AssertGreater"/>
@@ -317,6 +345,10 @@
 		<topic href="html/TestFramework.AssertGreater3.htm" label="AssertGreater"/>
 	</context>
 	<context id="v8_3_17$TestFramework#AssertGreater3" title="AssertGreater">
+		<description> Проверяет, что второе значение больше первого.</description>
+		<topic href="html/TestFramework.AssertGreater3.htm" label="AssertGreater"/>
+	</context>
+	<context id="v8_3_18$TestFramework#AssertGreater3" title="AssertGreater">
 		<description> Проверяет, что второе значение больше первого.</description>
 		<topic href="html/TestFramework.AssertGreater3.htm" label="AssertGreater"/>
 	</context>
@@ -360,6 +392,10 @@
 		<description> Проверяет, что второе значение больше или равено первому.</description>
 		<topic href="html/TestFramework.AssertGreaterOrEqual3.htm" label="AssertGreaterOrEqual"/>
 	</context>
+	<context id="v8_3_18$TestFramework#AssertGreaterOrEqual3" title="AssertGreaterOrEqual">
+		<description> Проверяет, что второе значение больше или равено первому.</description>
+		<topic href="html/TestFramework.AssertGreaterOrEqual3.htm" label="AssertGreaterOrEqual"/>
+	</context>
 	<context id="v8_3_8$TestFramework#AssertLess3" title="AssertLess">
 		<description> Проверяет, что второе значение меньше первого.</description>
 		<topic href="html/TestFramework.AssertLess3.htm" label="AssertLess"/>
@@ -397,6 +433,10 @@
 		<topic href="html/TestFramework.AssertLess3.htm" label="AssertLess"/>
 	</context>
 	<context id="v8_3_17$TestFramework#AssertLess3" title="AssertLess">
+		<description> Проверяет, что второе значение меньше первого.</description>
+		<topic href="html/TestFramework.AssertLess3.htm" label="AssertLess"/>
+	</context>
+	<context id="v8_3_18$TestFramework#AssertLess3" title="AssertLess">
 		<description> Проверяет, что второе значение меньше первого.</description>
 		<topic href="html/TestFramework.AssertLess3.htm" label="AssertLess"/>
 	</context>
@@ -440,6 +480,10 @@
 		<description> Проверяет, что второе значение меньше или равное первому.</description>
 		<topic href="html/TestFramework.AssertLessOrEqual3.htm" label="AssertLessOrEqual"/>
 	</context>
+	<context id="v8_3_18$TestFramework#AssertLessOrEqual3" title="AssertLessOrEqual">
+		<description> Проверяет, что второе значение меньше или равное первому.</description>
+		<topic href="html/TestFramework.AssertLessOrEqual3.htm" label="AssertLessOrEqual"/>
+	</context>
 	<context id="v8_3_8$TestFramework#AssertExecuted2" title="AssertExecuted">
 		<description> Проверяет, что переданное выражение корректно выполнилось без ошибок.</description>
 		<topic href="html/TestFramework.AssertExecuted2.htm" label="AssertExecuted"/>
@@ -477,6 +521,10 @@
 		<topic href="html/TestFramework.AssertExecuted2.htm" label="AssertExecuted"/>
 	</context>
 	<context id="v8_3_17$TestFramework#AssertExecuted2" title="AssertExecuted">
+		<description> Проверяет, что переданное выражение корректно выполнилось без ошибок.</description>
+		<topic href="html/TestFramework.AssertExecuted2.htm" label="AssertExecuted"/>
+	</context>
+	<context id="v8_3_18$TestFramework#AssertExecuted2" title="AssertExecuted">
 		<description> Проверяет, что переданное выражение корректно выполнилось без ошибок.</description>
 		<topic href="html/TestFramework.AssertExecuted2.htm" label="AssertExecuted"/>
 	</context>
@@ -520,6 +568,10 @@
 		<description> Проверяет, что данный метод у объекта корректно выполнилось без ошибок.</description>
 		<topic href="html/TestFramework.AssertMethodExecuted4.htm" label="AssertMethodExecuted"/>
 	</context>
+	<context id="v8_3_18$TestFramework#AssertMethodExecuted4" title="AssertMethodExecuted">
+		<description> Проверяет, что данный метод у объекта корректно выполнилось без ошибок.</description>
+		<topic href="html/TestFramework.AssertMethodExecuted4.htm" label="AssertMethodExecuted"/>
+	</context>
 	<context id="v8_3_8$TestFramework#AssertNotExecuted3" title="AssertNotExecuted">
 		<description> Проверяет, что переданное выражение не выполнилось без ошибок.</description>
 		<topic href="html/TestFramework.AssertNotExecuted3.htm" label="AssertNotExecuted"/>
@@ -557,6 +609,10 @@
 		<topic href="html/TestFramework.AssertNotExecuted3.htm" label="AssertNotExecuted"/>
 	</context>
 	<context id="v8_3_17$TestFramework#AssertNotExecuted3" title="AssertNotExecuted">
+		<description> Проверяет, что переданное выражение не выполнилось без ошибок.</description>
+		<topic href="html/TestFramework.AssertNotExecuted3.htm" label="AssertNotExecuted"/>
+	</context>
+	<context id="v8_3_18$TestFramework#AssertNotExecuted3" title="AssertNotExecuted">
 		<description> Проверяет, что переданное выражение не выполнилось без ошибок.</description>
 		<topic href="html/TestFramework.AssertNotExecuted3.htm" label="AssertNotExecuted"/>
 	</context>
@@ -600,6 +656,10 @@
 		<description> Проверяет, что данный метод у объекта вызвал исключение при выполнении.</description>
 		<topic href="html/TestFramework.AssertMethodNotExecuted5.htm" label="AssertMethodNotExecuted"/>
 	</context>
+	<context id="v8_3_18$TestFramework#AssertMethodNotExecuted5" title="AssertMethodNotExecuted">
+		<description> Проверяет, что данный метод у объекта вызвал исключение при выполнении.</description>
+		<topic href="html/TestFramework.AssertMethodNotExecuted5.htm" label="AssertMethodNotExecuted"/>
+	</context>
 	<context id="v8_3_8$TestFramework#AssertFilled2" title="AssertFilled">
 		<description> Проверяет, что переданное значение не является пустым.</description>
 		<topic href="html/TestFramework.AssertFilled2.htm" label="AssertFilled"/>
@@ -637,6 +697,10 @@
 		<topic href="html/TestFramework.AssertFilled2.htm" label="AssertFilled"/>
 	</context>
 	<context id="v8_3_17$TestFramework#AssertFilled2" title="AssertFilled">
+		<description> Проверяет, что переданное значение не является пустым.</description>
+		<topic href="html/TestFramework.AssertFilled2.htm" label="AssertFilled"/>
+	</context>
+	<context id="v8_3_18$TestFramework#AssertFilled2" title="AssertFilled">
 		<description> Проверяет, что переданное значение не является пустым.</description>
 		<topic href="html/TestFramework.AssertFilled2.htm" label="AssertFilled"/>
 	</context>
@@ -680,6 +744,10 @@
 		<description> Проверяет, что переданное значение является пустым.</description>
 		<topic href="html/TestFramework.AssertNotFilled2.htm" label="AssertNotFilled"/>
 	</context>
+	<context id="v8_3_18$TestFramework#AssertNotFilled2" title="AssertNotFilled">
+		<description> Проверяет, что переданное значение является пустым.</description>
+		<topic href="html/TestFramework.AssertNotFilled2.htm" label="AssertNotFilled"/>
+	</context>
 	<context id="v8_3_8$TestFramework#AssertType3" title="AssertType">
 		<description> Проверяет, что переданное значение нужного типа.</description>
 		<topic href="html/TestFramework.AssertType3.htm" label="AssertType"/>
@@ -717,6 +785,10 @@
 		<topic href="html/TestFramework.AssertType3.htm" label="AssertType"/>
 	</context>
 	<context id="v8_3_17$TestFramework#AssertType3" title="AssertType">
+		<description> Проверяет, что переданное значение нужного типа.</description>
+		<topic href="html/TestFramework.AssertType3.htm" label="AssertType"/>
+	</context>
+	<context id="v8_3_18$TestFramework#AssertType3" title="AssertType">
 		<description> Проверяет, что переданное значение нужного типа.</description>
 		<topic href="html/TestFramework.AssertType3.htm" label="AssertType"/>
 	</context>
@@ -760,6 +832,10 @@
 		<description> Проверяет, что искомая подстрока входит в строку.</description>
 		<topic href="html/TestFramework.AssertStringContains3.htm" label="AssertStringContains"/>
 	</context>
+	<context id="v8_3_18$TestFramework#AssertStringContains3" title="AssertStringContains">
+		<description> Проверяет, что искомая подстрока входит в строку.</description>
+		<topic href="html/TestFramework.AssertStringContains3.htm" label="AssertStringContains"/>
+	</context>
 	<context id="v8_3_8$TestFramework#AssertCollectionContains4" title="AssertCollectionContains">
 		<description> Проверяет, что значение входит в коллекцию.</description>
 		<topic href="html/TestFramework.AssertCollectionContains4.htm" label="AssertCollectionContains"/>
@@ -797,6 +873,10 @@
 		<topic href="html/TestFramework.AssertCollectionContains4.htm" label="AssertCollectionContains"/>
 	</context>
 	<context id="v8_3_17$TestFramework#AssertCollectionContains4" title="AssertCollectionContains">
+		<description> Проверяет, что значение входит в коллекцию.</description>
+		<topic href="html/TestFramework.AssertCollectionContains4.htm" label="AssertCollectionContains"/>
+	</context>
+	<context id="v8_3_18$TestFramework#AssertCollectionContains4" title="AssertCollectionContains">
 		<description> Проверяет, что значение входит в коллекцию.</description>
 		<topic href="html/TestFramework.AssertCollectionContains4.htm" label="AssertCollectionContains"/>
 	</context>
@@ -840,6 +920,10 @@
 		<description> Проверяет, что запрос СКД не вызовет ошибок компиляции.</description>
 		<topic href="html/TestFramework.AssertПроверитьВалидностьЗапросаСКД2.htm" label="AssertПроверитьВалидностьЗапросаСКД"/>
 	</context>
+	<context id="v8_3_18$TestFramework#AssertПроверитьВалидностьЗапросаСКД2" title="AssertПроверитьВалидностьЗапросаСКД">
+		<description> Проверяет, что запрос СКД не вызовет ошибок компиляции.</description>
+		<topic href="html/TestFramework.AssertПроверитьВалидностьЗапросаСКД2.htm" label="AssertПроверитьВалидностьЗапросаСКД"/>
+	</context>
 	<context id="v8_3_8$TestFramework#AssertПроверитьРавенствоТабличныхДокументовТолькоПоЗначениям6" title="AssertПроверитьРавенствоТабличныхДокументовТолькоПоЗначениям">
 		<description> Проверяет, что табличные документы равны, игнорируя оформление.</description>
 		<topic href="html/TestFramework.AssertПроверитьРавенствоТабличныхДокументовТолькоПоЗначениям6.htm" label="AssertПроверитьРавенствоТабличныхДокументовТолькоПоЗначениям"/>
@@ -877,6 +961,10 @@
 		<topic href="html/TestFramework.AssertПроверитьРавенствоТабличныхДокументовТолькоПоЗначениям6.htm" label="AssertПроверитьРавенствоТабличныхДокументовТолькоПоЗначениям"/>
 	</context>
 	<context id="v8_3_17$TestFramework#AssertПроверитьРавенствоТабличныхДокументовТолькоПоЗначениям6" title="AssertПроверитьРавенствоТабличныхДокументовТолькоПоЗначениям">
+		<description> Проверяет, что табличные документы равны, игнорируя оформление.</description>
+		<topic href="html/TestFramework.AssertПроверитьРавенствоТабличныхДокументовТолькоПоЗначениям6.htm" label="AssertПроверитьРавенствоТабличныхДокументовТолькоПоЗначениям"/>
+	</context>
+	<context id="v8_3_18$TestFramework#AssertПроверитьРавенствоТабличныхДокументовТолькоПоЗначениям6" title="AssertПроверитьРавенствоТабличныхДокументовТолькоПоЗначениям">
 		<description> Проверяет, что табличные документы равны, игнорируя оформление.</description>
 		<topic href="html/TestFramework.AssertПроверитьРавенствоТабличныхДокументовТолькоПоЗначениям6.htm" label="AssertПроверитьРавенствоТабличныхДокументовТолькоПоЗначениям"/>
 	</context>
@@ -920,6 +1008,10 @@
 		<description> Проверяет, что таблицы равны.</description>
 		<topic href="html/TestFramework.AssertEqualValueTable4.htm" label="AssertEqualValueTable"/>
 	</context>
+	<context id="v8_3_18$TestFramework#AssertEqualValueTable4" title="AssertEqualValueTable">
+		<description> Проверяет, что таблицы равны.</description>
+		<topic href="html/TestFramework.AssertEqualValueTable4.htm" label="AssertEqualValueTable"/>
+	</context>
 	<context id="v8_3_8$TestFramework#AssertПроверитьРавенствоФайлов8" title="AssertПроверитьРавенствоФайлов">
 		<description> Проверяет равенство файлов</description>
 		<topic href="html/TestFramework.AssertПроверитьРавенствоФайлов8.htm" label="AssertПроверитьРавенствоФайлов"/>
@@ -957,6 +1049,10 @@
 		<topic href="html/TestFramework.AssertПроверитьРавенствоФайлов8.htm" label="AssertПроверитьРавенствоФайлов"/>
 	</context>
 	<context id="v8_3_17$TestFramework#AssertПроверитьРавенствоФайлов8" title="AssertПроверитьРавенствоФайлов">
+		<description> Проверяет равенство файлов</description>
+		<topic href="html/TestFramework.AssertПроверитьРавенствоФайлов8.htm" label="AssertПроверитьРавенствоФайлов"/>
+	</context>
+	<context id="v8_3_18$TestFramework#AssertПроверитьРавенствоФайлов8" title="AssertПроверитьРавенствоФайлов">
 		<description> Проверяет равенство файлов</description>
 		<topic href="html/TestFramework.AssertПроверитьРавенствоФайлов8.htm" label="AssertПроверитьРавенствоФайлов"/>
 	</context>

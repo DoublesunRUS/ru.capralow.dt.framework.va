@@ -12,7 +12,7 @@ git:
   depth: false
 
 env:
-  - PLUGIN_VERSION="1.2.34"
+  - PLUGIN_VERSION="1.2.36"
 
 before_install:
   - cp bom/settings.xml $HOME/.m2/settings.xml

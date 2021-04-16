@@ -8,13 +8,13 @@
 	<parent>
 		<groupId>ru.capralow.dt.framework.va</groupId>
 		<artifactId>bom</artifactId>
-		<version>1.2.34-SNAPSHOT</version>
+		<version>1.2.36-SNAPSHOT</version>
 		<relativePath>./bom/pom.xml</relativePath>
 	</parent>
 
 	<groupId>ru.capralow.dt.framework.va</groupId>
 	<artifactId>parent</artifactId>
-	<version>1.2.34-SNAPSHOT</version>
+	<version>1.2.36-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>Vanessa Automation для 1Unit</name>

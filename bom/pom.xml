@@ -6,7 +6,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>ru.capralow.dt.framework.va</groupId>
 	<artifactId>bom</artifactId>
-	<version>1.2.34-SNAPSHOT</version>
+	<version>1.2.36-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>BOM</name>
@@ -52,7 +52,7 @@
 							<artifact>
 								<groupId>ru.capralow.dt.framework.va</groupId>
 								<artifactId>default</artifactId>
-								<version>1.2.34-SNAPSHOT</version>
+								<version>1.2.36-SNAPSHOT</version>
 							</artifact>
 						</target>
 						<dependency-resolution>
